@@ -48,22 +48,33 @@ El campo DNI no debe permitir una entrada distinta de 8 números y una letra.
 
 - Un tercer panel que contendrá los componentes necesarios para recoger los siguientes datos
 del inmueble:
-o Dirección, provincia, fecha de alta, fecha final de disponibilidad, numero de
+  
+  Dirección, provincia, fecha de alta, fecha final de disponibilidad, numero de
 huéspedes, número de dormitorios, numero de baños, número de camas, tipo de
 camas, “¿Niños?”, “Extras Niños”, imágenes, “Precio Mínimo”.
- “Provincia”, se podrá seleccionar de una lista de entre todas las provincias de España.
- “Fecha de alta”, se activará por defecto con la fecha actual.
- “Fecha final de disponibilidad”, se activará por defecto con la fecha actual más 1 año.
- “Nº de huéspedes”, se seleccionará de un JSpinner numérico de [0-8].
- “Nº de dormitorios”, se seleccionará de un JSpinner numérico de [0-4].
- “Nº de baños”, se seleccionará de un JSpinner numérico de [0-2].
- “Nº de camas”, se seleccionará de un JSpinner numérico de [0-4].
- “Tipo de camas”.
+  
+  “Provincia”, se podrá seleccionar de una lista de entre todas las provincias de España.
+  
+  “Fecha de alta”, se activará por defecto con la fecha actual.
+  
+  “Fecha final de disponibilidad”, se activará por defecto con la fecha actual más 1 año.
+  
+  “Nº de huéspedes”, se seleccionará de un JSpinner numérico de [0-8].
+  
+  “Nº de dormitorios”, se seleccionará de un JSpinner numérico de [0-4].
+  
+  “Nº de baños”, se seleccionará de un JSpinner numérico de [0-2].
+  
+  “Nº de camas”, se seleccionará de un JSpinner numérico de [0-4].
+  
+  “Tipo de camas”.
  Según el número de camas, se ira activando o desactivando, una zona para
 elegir el tipo de cama de una lista preparada con las opciones más comunes
 (simple, doble, sofá cama).
- “¿Niños?”, es una casilla de verificación
-“Extras Niños”, es un panel dentro del este panel y solamente se activarán sus
+  
+  “¿Niños?”, es una casilla de verificación
+ 
+ “Extras Niños”, es un panel dentro del este panel y solamente se activarán sus
 componentes si activamos la casilla de verificación de ¿Niños? Por defecto estará
 desactivado. Los componentes serán:
  “Edad de niños”, un JSpinner con valor mínimo de 0 y máximo de 10.
@@ -71,16 +82,18 @@ desactivado. Los componentes serán:
 siguiente contenido:
  Si edad niños es [0-3] --- cuna
  Si edad niños es [4-10]---cama supletoria pequeña
- Un panel Imágenes en el cual se mostrarán tres “imágenes” del piso, tu elijes como
+ 
+  Un panel Imágenes en el cual se mostrarán tres “imágenes” del piso, tu elijes como
 mostrarlas, todas a la vez, pasar de una a otra, etc.
- “Precio Mínimo”, se refiere al precio mínimo al día por el cual se ofertará el piso, dado
+  
+  “Precio Mínimo”, se refiere al precio mínimo al día por el cual se ofertará el piso, dado
 el siguiente cuadro de cálculo. Mostrará el resultado al obtener el foco. Cuadro de
 cálculo.
-Por cama doble_____________________ 20 €
-Por sofá cama ______________________ 15 €
-Por cama simple ____________________ 15 €
-Por baño __________________________ 25 €
-Cuna o cama supletoria ______________ 12 €
+Por cama doble-20 €
+//Por sofá cama-15 €
+//Por cama simple-15 €
+//Por baño-25 €
+//Cuna o cama supletoria-12 €
 - Un cuarto panel compuesto por dos paneles tipo ficha (JTabbedPane), en uno se imprimirán
 los datos del arrendador y en el otro los datos del inmueble, con un formato especifico.
 - Un botón “Imprimir a Documento” (Imagen de Imprimir, según normas de usabilidad), si todos
